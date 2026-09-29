@@ -1,0 +1,12 @@
+@relation fake_news
+
+@attribute text string
+@attribute class {fake,real}
+
+@data
+"Breaking news: scientists confirm that the moon is made of cheese and will be harvested next week.",fake
+"Government publishes the official annual economic report with verified statistics and sources.",real
+"Celebrity claims drinking water makes people invisible, experts say the claim has no scientific evidence.",fake
+"Local university announces a new research program and publishes the details on its official website.",real
+"Secret miracle cure reportedly works instantly for every disease without clinical trials.",fake
+"Weather department releases a forecast warning for heavy rainfall in the region.",real
